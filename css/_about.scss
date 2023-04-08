@@ -1,0 +1,630 @@
+#absect1{
+    background-image: url(https://preview.codeless.co/livecast/default/wp-content/uploads/2021/04/bg-main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    vertical-align: bottom;
+    position: relative;
+    .ab1letters{
+        align-items: center;
+        height: 40vh;
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;  
+        transform: translate(-50%, -50%);
+        text-align: center;
+        h2{
+            color: white;
+            font-weight: bolder;
+            font-size: 48px;
+            line-height: 72px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: white;
+            font-size: 18px;
+            font-weight: bolder;
+            margin-top: 40px;
+        }
+    }
+    
+}
+
+@media (min-width:768px) {
+    #absect1{
+        height: 100vh;
+        .ab1letters{
+            
+            h2{
+                font-size: 72px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+
+}
+@media (min-width:992px) {
+    .ab1links{
+        opacity: 1;
+        .abc{
+            color: #23e4ff;
+            margin: 26px 5px 0 0;
+        }
+        i{
+            color: #fff;
+            font-size: 20px;
+        }
+        h2{
+            font-size: 20px !important; 
+        }
+        button{
+            height: 50px;
+            border-radius: 50px;
+            margin: 10px;
+            width: 15%;
+            background-color: #474e5585;
+            a{
+                text-decoration: none;
+                font-size: 15px;
+                color: white;
+            }
+            &:hover{
+                background-color: #23e4ff;
+            }
+        }
+    }
+}
+// ///////////////////////////////////////////
+@media (max-width: 576px) {
+    #meet {
+        width: 100%;
+
+        .boxtext {
+            padding: 30px 0 30px 50px;
+
+            .heading {
+                color: #23e4ff;
+                font-size: 13px;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 18px;
+            }
+
+            .name {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #03045e;
+            }
+
+            .add {
+                font-size: 20px;
+                font-weight: 500;
+                font-style: italic;
+                line-height: 34px;
+                color: #061020;
+            }
+
+            .textp {
+                color: grey;
+            }
+
+            .button {
+                margin-top: 50px;
+
+                a {
+                    font-family: rubik, Sans-serif;
+                    font-size: 13px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    fill: #fff;
+                    color: #fff;
+                    background-color: #061020;
+                    border-radius: 25px 25px 25px 25px;
+                    padding: 17px 38px;
+                    text-decoration: none;
+                    transition: all .3s;
+
+                    &:hover {
+                        background-color: #01b7cd;
+                    }
+                }
+            }
+
+            .icon {
+                margin-left: 40px;
+                margin-top: 50px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 17px;
+                    fill: #908dab;
+                    color: #908dab;
+                    background-color: #ffffff00;
+                    padding: 5px 16px;
+
+                    &:hover {
+                        color: #01b7cd;
+                        transition: all .3s;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    #meet {
+        width: 100%;
+
+        .boxtext {
+            padding: 30px 0 30px 50px;
+
+            .heading {
+                color: #23e4ff;
+                font-size: 13px;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 18px;
+            }
+
+            .name {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #03045e;
+            }
+
+            .add {
+                font-size: 20px;
+                font-weight: 500;
+                font-style: italic;
+                line-height: 34px;
+                color: #061020;
+            }
+
+            .textp {
+                color: grey;
+            }
+
+            .button {
+                margin-top: 50px;
+
+                a {
+                    font-family: rubik, Sans-serif;
+                    font-size: 13px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    fill: #fff;
+                    color: #fff;
+                    background-color: #061020;
+                    border-radius: 25px 25px 25px 25px;
+                    padding: 17px 38px;
+                    text-decoration: none;
+                    transition: all .3s;
+
+                    &:hover {
+                        background-color: #01b7cd;
+                    }
+                }
+            }
+
+            .icon {
+                margin-left: 40px;
+                margin-top: 50px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 17px;
+                    fill: #908dab;
+                    color: #908dab;
+                    background-color: #ffffff00;
+                    padding: 5px 16px;
+
+                    &:hover {
+                        color: #01b7cd;
+                        transition: all .3s;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    #meet {
+        width: 100%;
+
+        .boxtext {
+            padding: 30px 0 30px 50px;
+
+            .heading {
+                color: #23e4ff;
+                font-size: 13px;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 18px;
+            }
+
+            .name {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #03045e;
+            }
+
+            .add {
+                font-size: 20px;
+                font-weight: 500;
+                font-style: italic;
+                line-height: 34px;
+                color: #061020;
+            }
+
+            .textp {
+                color: grey;
+            }
+
+            .button {
+                margin-top: 50px;
+
+                a {
+                    font-family: rubik, Sans-serif;
+                    font-size: 13px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    fill: #fff;
+                    color: #fff;
+                    background-color: #061020;
+                    border-radius: 25px 25px 25px 25px;
+                    padding: 17px 38px;
+                    text-decoration: none;
+                    transition: all .3s;
+
+                    &:hover {
+                        background-color: #01b7cd;
+                    }
+                }
+            }
+
+            .icon {
+                margin-left: 40px;
+                margin-top: 50px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 17px;
+                    fill: #908dab;
+                    color: #908dab;
+                    background-color: #ffffff00;
+                    padding: 5px 16px;
+
+                    &:hover {
+                        color: #01b7cd;
+                        transition: all .3s;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+    #meet {
+        width: 100%;
+
+        .boxtext {
+            padding: 30px 0 30px 50px;
+
+            .heading {
+                color: #23e4ff;
+                font-size: 13px;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 18px;
+            }
+
+            .name {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #03045e;
+            }
+
+            .add {
+                font-size: 20px;
+                font-weight: 500;
+                font-style: italic;
+                line-height: 34px;
+                color: #061020;
+            }
+
+            .textp {
+                color: grey;
+            }
+
+            .button {
+                margin-top: 50px;
+
+                a {
+                    font-family: rubik, Sans-serif;
+                    font-size: 13px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    fill: #fff;
+                    color: #fff;
+                    background-color: #061020;
+                    border-radius: 25px 25px 25px 25px;
+                    padding: 17px 38px;
+                    text-decoration: none;
+                    transition: all .3s;
+
+                    &:hover {
+                        background-color: #01b7cd;
+                    }
+                }
+            }
+
+            .icon {
+                margin-left: 40px;
+                margin-top: 50px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 17px;
+                    fill: #908dab;
+                    color: #908dab;
+                    background-color: #ffffff00;
+                    padding: 5px 16px;
+
+                    &:hover {
+                        color: #01b7cd;
+                        transition: all .3s;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) {
+    #meet {
+        width: 100%;
+
+        .boxtext {
+            padding: 30px 0 30px 50px;
+
+            .heading {
+                color: #23e4ff;
+                font-size: 13px;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 18px;
+            }
+
+            .name {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+                color: #03045e;
+            }
+
+            .add {
+                font-size: 20px;
+                font-weight: 500;
+                font-style: italic;
+                line-height: 34px;
+                color: #061020;
+            }
+
+            .textp {
+                color: grey;
+            }
+
+            .button {
+                margin-top: 50px;
+
+                a {
+                    font-family: rubik, Sans-serif;
+                    font-size: 13px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    fill: #fff;
+                    color: #fff;
+                    background-color: #061020;
+                    border-radius: 25px 25px 25px 25px;
+                    padding: 17px 38px;
+                    text-decoration: none;
+                    transition: all .3s;
+
+                    &:hover {
+                        background-color: #01b7cd;
+                    }
+                }
+            }
+
+            .icon {
+                margin-left: 40px;
+                margin-top: 50px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 17px;
+                    fill: #908dab;
+                    color: #908dab;
+                    background-color: #ffffff00;
+                    padding: 5px 16px;
+
+                    &:hover {
+                        color: #01b7cd;
+                        transition: all .3s;
+                    }
+                }
+            }
+
+        }
+    }
+}
+#meet {
+    width: 100%;
+    
+    padding: 50px 0;
+    background-color: #F6FAFC;
+
+    .boxtext {
+        padding: 30px 0 30px 50px;
+
+        .heading {
+            color: #23e4ff;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            line-height: 18px;
+        }
+
+        .name {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 30px;
+            color: #03045e;
+        }
+
+        .add {
+            font-size: 20px;
+            font-weight: 500;
+            font-style: italic;
+            line-height: 34px;
+            color: #061020;
+        }
+
+        .textp {
+            color: grey;
+        }
+
+        .button {
+            margin-top: 50px;
+
+            a {
+                font-family: rubik, Sans-serif;
+                font-size: 13px;
+                font-weight: 800;
+                text-transform: uppercase;
+                fill: #fff;
+                color: #fff;
+                background-color: #061020;
+                border-radius: 25px 25px 25px 25px;
+                padding: 17px 38px;
+                text-decoration: none;
+                transition: all .3s;
+
+                &:hover {
+                    background-color: #01b7cd;
+                }
+            }
+        }
+
+        .icon {
+            margin-left: 40px;
+            margin-top: 50px;
+
+            a {
+                text-decoration: none;
+                font-size: 17px;
+                fill: #908dab;
+                color: #908dab;
+                background-color: #ffffff00;
+                padding: 5px 16px;
+
+                &:hover {
+                    color: #01b7cd;
+                    transition: all .3s;
+                }
+            }
+        }
+
+    }
+}
+// ///////////////////////////////////////
+
+#about3{
+    width: 100%;
+    background-color: #dce0e1;
+    h2{
+        color: #23e4ff;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    span{
+        font-size: 14px;
+        color: grey;
+    }
+    .ab3boxes{
+        margin-top: 20px;
+        .abbox1{
+            background-color: #fff;
+            height: 70vh;
+            border-radius: 10px;
+            margin: 0 -20px 20px;
+            .abb1{
+                width: 90%;
+                margin: auto;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 45vh;
+                    margin: auto;
+                    margin-top: 20px;
+                    border-radius: 15px;
+                }
+                .overlay{
+                    position: absolute;
+                    bottom: 30px;
+                    left: 15px;
+                    z-index: 1;
+                    i{
+                        color: white;
+                        font-size: 3em;
+                    }
+                    
+                }
+                .overlay2{
+                    height: 20px;
+                    background-color: rgba(255, 255, 255, 0.543);
+                    position: absolute;
+                    z-index: 1;
+                    top: 35px;
+                    right: 15px;
+                    display: inline-block;
+                    border-radius: 10px;
+                    padding: 0 10px;
+                }
+            }
+            .abb2{
+                width: 90%;
+                margin: auto;
+                span{width: 100%;
+                    display: inline-block;
+                    margin: 5px 0;
+                color: #23e4ff;}
+            }
+            h3{
+                color: #03045e;
+                font-size: 24px;
+                margin: 10px 0;
+            }
+        }
+    }
+}

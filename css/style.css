@@ -1,0 +1,695 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.custom-container {
+  width: 40%;
+}
+
+button {
+  border: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: red;
+}
+
+#header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+#header .header {
+  padding: 40px 0 0 0;
+}
+#header .header .logo img {
+  width: 260px;
+  margin-left: -30px;
+}
+#header .header .navigation-menu ul li {
+  margin-left: 30px;
+}
+#header .header .navigation-menu ul li a {
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight: 700;
+  opacity: 0.8;
+}
+#header .header .right-menu .donate-button {
+  border: 1px solid #23e4ff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #23e4ff;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#main-page {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/main-bg.jpeg);
+  background-repeat: no-repeat;
+  position: relative;
+  filter: brightness(0.89);
+}
+#main-page .text-area {
+  width: 600px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+#main-page .text-area .title {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+}
+#main-page .text-area .text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 25px;
+}
+#main-page .button-area {
+  width: 600px;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+#main-page .button-area li {
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+#main-page .button-area li:hover {
+  background-color: #23e4ff;
+}
+#main-page .button-area li a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#absect1 {
+  background-image: url(https://preview.codeless.co/livecast/default/wp-content/uploads/2021/04/bg-main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  vertical-align: bottom;
+  position: relative;
+}
+#absect1 .ab1letters {
+  align-items: center;
+  height: 40vh;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#absect1 .ab1letters h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 20px;
+}
+#absect1 .ab1letters p {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  #absect1 {
+    height: 100vh;
+  }
+  #absect1 .ab1letters h2 {
+    font-size: 72px;
+  }
+  #absect1 .ab1letters p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .ab1links {
+    opacity: 1;
+  }
+  .ab1links .abc {
+    color: #23e4ff;
+    margin: 26px 5px 0 0;
+  }
+  .ab1links i {
+    color: #fff;
+    font-size: 20px;
+  }
+  .ab1links h2 {
+    font-size: 20px !important;
+  }
+  .ab1links button {
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    width: 15%;
+    background-color: rgba(71, 78, 85, 0.5215686275);
+  }
+  .ab1links button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+  }
+  .ab1links button:hover {
+    background-color: #23e4ff;
+  }
+}
+@media (max-width: 576px) {
+  #meet {
+    width: 100%;
+  }
+  #meet .boxtext {
+    padding: 30px 0 30px 50px;
+  }
+  #meet .boxtext .heading {
+    color: #23e4ff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+  }
+  #meet .boxtext .name {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #03045e;
+  }
+  #meet .boxtext .add {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 34px;
+    color: #061020;
+  }
+  #meet .boxtext .textp {
+    color: grey;
+  }
+  #meet .boxtext .button {
+    margin-top: 50px;
+  }
+  #meet .boxtext .button a {
+    font-family: rubik, Sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: #061020;
+    border-radius: 25px 25px 25px 25px;
+    padding: 17px 38px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  #meet .boxtext .button a:hover {
+    background-color: #01b7cd;
+  }
+  #meet .boxtext .icon {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #meet .boxtext .icon a {
+    text-decoration: none;
+    font-size: 17px;
+    fill: #908dab;
+    color: #908dab;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 16px;
+  }
+  #meet .boxtext .icon a:hover {
+    color: #01b7cd;
+    transition: all 0.3s;
+  }
+}
+@media (max-width: 768px) {
+  #meet {
+    width: 100%;
+  }
+  #meet .boxtext {
+    padding: 30px 0 30px 50px;
+  }
+  #meet .boxtext .heading {
+    color: #23e4ff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+  }
+  #meet .boxtext .name {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #03045e;
+  }
+  #meet .boxtext .add {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 34px;
+    color: #061020;
+  }
+  #meet .boxtext .textp {
+    color: grey;
+  }
+  #meet .boxtext .button {
+    margin-top: 50px;
+  }
+  #meet .boxtext .button a {
+    font-family: rubik, Sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: #061020;
+    border-radius: 25px 25px 25px 25px;
+    padding: 17px 38px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  #meet .boxtext .button a:hover {
+    background-color: #01b7cd;
+  }
+  #meet .boxtext .icon {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #meet .boxtext .icon a {
+    text-decoration: none;
+    font-size: 17px;
+    fill: #908dab;
+    color: #908dab;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 16px;
+  }
+  #meet .boxtext .icon a:hover {
+    color: #01b7cd;
+    transition: all 0.3s;
+  }
+}
+@media (max-width: 992px) {
+  #meet {
+    width: 100%;
+  }
+  #meet .boxtext {
+    padding: 30px 0 30px 50px;
+  }
+  #meet .boxtext .heading {
+    color: #23e4ff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+  }
+  #meet .boxtext .name {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #03045e;
+  }
+  #meet .boxtext .add {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 34px;
+    color: #061020;
+  }
+  #meet .boxtext .textp {
+    color: grey;
+  }
+  #meet .boxtext .button {
+    margin-top: 50px;
+  }
+  #meet .boxtext .button a {
+    font-family: rubik, Sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: #061020;
+    border-radius: 25px 25px 25px 25px;
+    padding: 17px 38px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  #meet .boxtext .button a:hover {
+    background-color: #01b7cd;
+  }
+  #meet .boxtext .icon {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #meet .boxtext .icon a {
+    text-decoration: none;
+    font-size: 17px;
+    fill: #908dab;
+    color: #908dab;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 16px;
+  }
+  #meet .boxtext .icon a:hover {
+    color: #01b7cd;
+    transition: all 0.3s;
+  }
+}
+@media (max-width: 1200px) {
+  #meet {
+    width: 100%;
+  }
+  #meet .boxtext {
+    padding: 30px 0 30px 50px;
+  }
+  #meet .boxtext .heading {
+    color: #23e4ff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+  }
+  #meet .boxtext .name {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #03045e;
+  }
+  #meet .boxtext .add {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 34px;
+    color: #061020;
+  }
+  #meet .boxtext .textp {
+    color: grey;
+  }
+  #meet .boxtext .button {
+    margin-top: 50px;
+  }
+  #meet .boxtext .button a {
+    font-family: rubik, Sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: #061020;
+    border-radius: 25px 25px 25px 25px;
+    padding: 17px 38px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  #meet .boxtext .button a:hover {
+    background-color: #01b7cd;
+  }
+  #meet .boxtext .icon {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #meet .boxtext .icon a {
+    text-decoration: none;
+    font-size: 17px;
+    fill: #908dab;
+    color: #908dab;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 16px;
+  }
+  #meet .boxtext .icon a:hover {
+    color: #01b7cd;
+    transition: all 0.3s;
+  }
+}
+@media (max-width: 1400px) {
+  #meet {
+    width: 100%;
+  }
+  #meet .boxtext {
+    padding: 30px 0 30px 50px;
+  }
+  #meet .boxtext .heading {
+    color: #23e4ff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+  }
+  #meet .boxtext .name {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #03045e;
+  }
+  #meet .boxtext .add {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 34px;
+    color: #061020;
+  }
+  #meet .boxtext .textp {
+    color: grey;
+  }
+  #meet .boxtext .button {
+    margin-top: 50px;
+  }
+  #meet .boxtext .button a {
+    font-family: rubik, Sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: #061020;
+    border-radius: 25px 25px 25px 25px;
+    padding: 17px 38px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  #meet .boxtext .button a:hover {
+    background-color: #01b7cd;
+  }
+  #meet .boxtext .icon {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  #meet .boxtext .icon a {
+    text-decoration: none;
+    font-size: 17px;
+    fill: #908dab;
+    color: #908dab;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 16px;
+  }
+  #meet .boxtext .icon a:hover {
+    color: #01b7cd;
+    transition: all 0.3s;
+  }
+}
+#meet {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #F6FAFC;
+}
+#meet .boxtext {
+  padding: 30px 0 30px 50px;
+}
+#meet .boxtext .heading {
+  color: #23e4ff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+#meet .boxtext .name {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #03045e;
+}
+#meet .boxtext .add {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 34px;
+  color: #061020;
+}
+#meet .boxtext .textp {
+  color: grey;
+}
+#meet .boxtext .button {
+  margin-top: 50px;
+}
+#meet .boxtext .button a {
+  font-family: rubik, Sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  fill: #fff;
+  color: #fff;
+  background-color: #061020;
+  border-radius: 25px 25px 25px 25px;
+  padding: 17px 38px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+#meet .boxtext .button a:hover {
+  background-color: #01b7cd;
+}
+#meet .boxtext .icon {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+#meet .boxtext .icon a {
+  text-decoration: none;
+  font-size: 17px;
+  fill: #908dab;
+  color: #908dab;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px 16px;
+}
+#meet .boxtext .icon a:hover {
+  color: #01b7cd;
+  transition: all 0.3s;
+}
+
+#about3 {
+  width: 100%;
+  background-color: #dce0e1;
+}
+#about3 h2 {
+  color: #23e4ff;
+  font-size: 30px;
+  padding-top: 50px;
+}
+#about3 span {
+  font-size: 14px;
+  color: grey;
+}
+#about3 .ab3boxes {
+  margin-top: 20px;
+}
+#about3 .ab3boxes .abbox1 {
+  background-color: #fff;
+  height: 70vh;
+  border-radius: 10px;
+  margin: 0 -20px 20px;
+}
+#about3 .ab3boxes .abbox1 .abb1 {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+#about3 .ab3boxes .abbox1 .abb1 img {
+  width: 100%;
+  height: 45vh;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+#about3 .ab3boxes .abbox1 .abb1 .overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  z-index: 1;
+}
+#about3 .ab3boxes .abbox1 .abb1 .overlay i {
+  color: white;
+  font-size: 3em;
+}
+#about3 .ab3boxes .abbox1 .abb1 .overlay2 {
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.543);
+  position: absolute;
+  z-index: 1;
+  top: 35px;
+  right: 15px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+#about3 .ab3boxes .abbox1 .abb2 {
+  width: 90%;
+  margin: auto;
+}
+#about3 .ab3boxes .abbox1 .abb2 span {
+  width: 100%;
+  display: inline-block;
+  margin: 5px 0;
+  color: #23e4ff;
+}
+#about3 .ab3boxes .abbox1 h3 {
+  color: #03045e;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#footer {
+  width: 100%;
+  background-color: #161F2C;
+}
+#footer .top-footer {
+  padding: 50px 0;
+}
+#footer .top-footer .foot-title h4 {
+  font-size: 32px;
+  width: 500px;
+  color: #ffffff;
+  font-weight: 700;
+}
+#footer .top-footer .subscribe-area {
+  position: relative;
+}
+#footer .top-footer .subscribe-area .sub-input {
+  width: 450px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+#footer .top-footer .subscribe-area .sub-button {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translateY(-50%);
+  background-color: #23e4ff;
+  padding: 12px 20px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
