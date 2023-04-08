@@ -1,3 +1,45 @@
-#header{
+#header {
     width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+
+    .header{
+        padding: 40px 0 0 0;
+
+        .logo{
+            img{
+                width: 260px;
+                margin-left: -30px;
+            }
+        }
+        
+        .navigation-menu{
+            ul{
+                li{
+                    margin-left: 30px;
+                    a{
+                        padding: 5px 10px;
+                        color: $secondColor;
+                        font-weight: 700;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+
+        .right-menu{
+            .donate-button{
+                border: 1px solid $firstColor;
+                padding: 10px 40px;
+                border-radius: 20px;
+                color: $secondColor;
+                background-color: $firstColor;
+                margin-left: 40px;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+
 }

@@ -1,0 +1,41 @@
+#footer{
+    width: 100%;
+    background-color: #161F2C;
+
+    .top-footer{
+        padding: 50px 0;
+        .foot-title{
+            h4{
+                font-size: 32px;
+                width: 500px;
+                color: $secondColor;
+                font-weight: 700;
+            }
+
+        }
+
+        .subscribe-area{
+            position: relative;
+            .sub-input{
+                width: 450px;
+                height: 50px;
+                padding: 10px 20px;
+                border-radius: 25px;
+            }
+
+            .sub-button{
+                position: absolute;
+                top: 50%;
+                left: 65%;
+                transform: translateY(-50%);
+                background-color: $firstColor;
+                padding: 12px 20px;
+                border-radius: 25px;
+                color: #ffffff;
+                font-weight: 600;
+            }
+        }
+
+
+    }
+}
