@@ -33,9 +33,95 @@
                 border-radius: 25px;
                 color: #ffffff;
                 font-weight: 600;
+                transition: 200ms ease-in-out;
+
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .main-footer{
+        padding: 50px 0;
+
+        .logo{
+
+            img{
+                width: 400px;
             }
         }
 
+        .info{
+            span{
+                color: $secondColor;
+                font-size: 18px;
+            }
+        }
+    }
+}
 
+@media only screen and (max-width: 600px) {
+
+    #footer{
+        width: 100%;
+        background-color: #161F2C;
+    
+        .top-footer{
+            padding: 50px 0;
+            .foot-title{
+                h4{
+                    font-size: 22px;
+                    width: 250px;
+                    color: $secondColor;
+                    font-weight: 700;
+                    margin: 0 0 20px 18%;
+                    text-align: center;
+                }
+    
+            }
+    
+            .subscribe-area{
+                position: relative;
+                .sub-input{
+                    width: 350px;
+                    height: 50px;
+                    padding: 10px 20px;
+                    border-radius: 25px;
+                }
+    
+                .sub-button{
+                    position: absolute;
+                    top: 50%;
+                    left: 65%;
+                    transform: translateY(-50%);
+                    background-color: $firstColor;
+                    padding: 12px 20px;
+                    border-radius: 25px;
+                    color: #ffffff;
+                    font-weight: 600;
+                }
+            }
+    
+    
+        }
+    }
+
+    .main-footer{
+        padding: 20px 0;
+
+        .logo{
+            position: relative;
+            img{
+                width: 250px !important;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .info{
+            display: none;
+        }
     }
 }

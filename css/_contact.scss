@@ -1,0 +1,451 @@
+#top {
+    background: url(/images/bg-1-min.webp);
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .text {
+        text-align: center;
+        width: 60%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        h1 {
+            color: white;
+            font-size: 70px;
+            font-weight: 700;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .box {
+            .music {
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+
+            margin-top: 50px;
+            justify-content: space-around;
+
+            p {
+                font-weight: 700;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            .box1 {
+                padding: 10px 20px;
+                background-color: rgba(70, 70, 70, 0.655);
+
+                border-radius: 20px;
+                color: white;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #23e4ff;
+                    opacity: 1;
+                }
+
+                a {
+
+                    text-decoration: none;
+                    color: white;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-left: 10px;
+
+                }
+            }
+        }
+    }
+}
+
+#contact {
+    height: 70vh;
+    padding-top: 50px;
+
+    .box-text {
+        margin-bottom: 50px;
+        text-align: center;
+
+        h5 {
+            color:#03045e;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        p {
+            width: 70%;
+            margin: auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+        }
+    }
+
+    .box1 {
+        border-radius: 20px;
+        box-shadow: 5px 10px 8px 10px #888888;
+        text-align: center;
+
+        i {
+            margin-top: 10px;
+            font-size: 50px;
+        }
+
+        h5 {
+            margin-top: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color:#03045e;
+            font-size: 20px;
+        }
+    }
+
+    .box2 {
+
+        border-radius: 20px;
+        box-shadow: 5px 10px 8px 10px #888888;
+        text-align: center;
+
+        i {
+            margin-top: 10px;
+            font-size: 50px;
+        }
+
+        .box {
+            margin-top: 60px;
+
+            .twitter {
+                font-size: 30px;
+                margin-right: 20px;
+                color: #ffffff;
+                background-color:#23e4ff;;
+                padding: 10px;
+                border-radius: 8mm;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    background-color:#03045e;
+
+                }
+            }
+
+            .facebook {
+                font-size: 30px;
+                margin-right: 20px;
+                color:#23e4ff;;
+                padding: 10px;
+                border-radius: 6mm;
+                transition: 0.3s ease-in-out;
+                color: white;
+                background-color:#23e4ff;;
+
+                &:hover {
+                    color: white;
+                    background-color:#03045e;
+                }
+            }
+
+            .insta {
+                font-size: 30px;
+                color:#23e4ff;;
+                padding: 10px;
+                border-radius: 8mm;
+                transition: 0.3s ease-in-out;
+                color: white;
+                background-color:#23e4ff;;
+
+                &:hover {
+                    color: white;
+                    background-color:#03045e;
+                }
+            }
+        }
+    }
+
+    .box3 {
+        border-radius: 20px;
+        box-shadow: 5px 10px 8px 10px #888888;
+        text-align: center;
+
+        i {
+            margin-top: 10px;
+            font-size: 50px;
+        }
+
+        h5 {
+            color:#03045e;
+            margin-top: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        p {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+#form {
+    height: auto;
+    background: url(/images/wp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .box-left {
+        margin-top: 100px;
+
+        h5 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color:#03045e;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-top: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        p {
+            width: 80%;
+            margin-top: 30px;
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+        }
+    }
+
+    .box-right {
+        margin-top: 30px;
+
+        .name {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .email {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .message {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .check {
+            margin-top: 10px;
+            color: white;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .submit {
+            margin-top: 20px;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            background-color:#23e4ff;;
+            border-radius: 8mm;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                background-color:#03045e;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    #top {
+        height: 50vh;
+
+        .text {
+            margin-top: 100px;
+            width: 100%;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        .box {
+            opacity: 0;
+            overflow: hidden;
+        }
+    }
+
+    #contact {
+        height: auto;
+
+        .boxes {
+            flex-direction: column;
+
+            .box1 {
+                margin-bottom: 50px;
+            }
+
+            .box2 {
+                margin-bottom: 50px;
+            }
+
+            .box3 {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .form {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #top {
+        height: 50vh;
+
+        .text {
+            margin-top: 100px;
+            width: 100%;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        .box {
+            opacity: 0;
+            overflow: hidden;
+        }
+    }
+
+    #contact {
+        height: auto;
+
+        .boxes {
+            flex-direction: column;
+
+            .box1 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .box2 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .box3 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #top {
+        max-height: 100vh;
+
+        .text {
+            margin-top: 100px;
+            width: 100%;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        .box {
+            opacity: 0;
+            overflow: hidden;
+        }
+    }
+
+    #contact {
+        height: auto;
+
+        .boxes {
+
+            flex-direction: column;
+
+            .box1 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .box2 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .box3 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #top {
+        max-height: 100vh;
+
+        .text {
+            margin-top: 100px;
+            width: 100%;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        .box {
+            opacity: 0;
+            overflow: hidden;
+        }
+    }
+
+    #contact {
+        height: auto;
+
+        .boxes {
+
+            flex-direction: column;
+
+            .box1 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .box2 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+
+            .box3 {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
